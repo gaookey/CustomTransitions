@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E8B4915F1DF14FDA006AA648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B4915E1DF14FDA006AA648 /* main.m */; };
-		E8B491621DF14FDA006AA648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491611DF14FDA006AA648 /* AppDelegate.m */; };
-		E8B491651DF14FDA006AA648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491641DF14FDA006AA648 /* ViewController.m */; };
-		E8B491681DF14FDA006AA648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B491661DF14FDA006AA648 /* Main.storyboard */; };
 		E8B4916A1DF14FDA006AA648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B491691DF14FDA006AA648 /* Assets.xcassets */; };
 		E8B4916D1DF14FDA006AA648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B4916B1DF14FDA006AA648 /* LaunchScreen.storyboard */; };
 		E8B491781DF14FDB006AA648 /* CustomTransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491771DF14FDB006AA648 /* CustomTransitionsTests.m */; };
 		E8B491831DF14FDB006AA648 /* CustomTransitionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491821DF14FDB006AA648 /* CustomTransitionsUITests.m */; };
+		E8B491911DF15113006AA648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B491901DF15113006AA648 /* Main.storyboard */; };
+		E8B4919C1DF15143006AA648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491931DF15143006AA648 /* AppDelegate.m */; };
+		E8B4919D1DF15143006AA648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491951DF15143006AA648 /* ViewController.m */; };
+		E8B4919E1DF15143006AA648 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491971DF15143006AA648 /* ViewController2.m */; };
+		E8B4919F1DF15143006AA648 /* animationPresentedProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B491991DF15143006AA648 /* animationPresentedProxy.m */; };
+		E8B491A01DF15143006AA648 /* animationdismissProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B4919B1DF15143006AA648 /* animationdismissProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,6 @@
 /* Begin PBXFileReference section */
 		E8B4915A1DF14FDA006AA648 /* CustomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B4915E1DF14FDA006AA648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E8B491601DF14FDA006AA648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E8B491611DF14FDA006AA648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E8B491631DF14FDA006AA648 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E8B491641DF14FDA006AA648 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E8B491671DF14FDA006AA648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B491691DF14FDA006AA648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B4916C1DF14FDA006AA648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B4916E1DF14FDA006AA648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,17 @@
 		E8B4917E1DF14FDB006AA648 /* CustomTransitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B491821DF14FDB006AA648 /* CustomTransitionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionsUITests.m; sourceTree = "<group>"; };
 		E8B491841DF14FDB006AA648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B491901DF15113006AA648 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E8B491921DF15143006AA648 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8B491931DF15143006AA648 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8B491941DF15143006AA648 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8B491951DF15143006AA648 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8B491961DF15143006AA648 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		E8B491971DF15143006AA648 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		E8B491981DF15143006AA648 /* animationPresentedProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animationPresentedProxy.h; sourceTree = "<group>"; };
+		E8B491991DF15143006AA648 /* animationPresentedProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animationPresentedProxy.m; sourceTree = "<group>"; };
+		E8B4919A1DF15143006AA648 /* animationdismissProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animationdismissProxy.h; sourceTree = "<group>"; };
+		E8B4919B1DF15143006AA648 /* animationdismissProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animationdismissProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +110,17 @@
 		E8B4915C1DF14FDA006AA648 /* CustomTransitions */ = {
 			isa = PBXGroup;
 			children = (
-				E8B491601DF14FDA006AA648 /* AppDelegate.h */,
-				E8B491611DF14FDA006AA648 /* AppDelegate.m */,
-				E8B491631DF14FDA006AA648 /* ViewController.h */,
-				E8B491641DF14FDA006AA648 /* ViewController.m */,
-				E8B491661DF14FDA006AA648 /* Main.storyboard */,
+				E8B491921DF15143006AA648 /* AppDelegate.h */,
+				E8B491931DF15143006AA648 /* AppDelegate.m */,
+				E8B491941DF15143006AA648 /* ViewController.h */,
+				E8B491951DF15143006AA648 /* ViewController.m */,
+				E8B491961DF15143006AA648 /* ViewController2.h */,
+				E8B491971DF15143006AA648 /* ViewController2.m */,
+				E8B491981DF15143006AA648 /* animationPresentedProxy.h */,
+				E8B491991DF15143006AA648 /* animationPresentedProxy.m */,
+				E8B4919A1DF15143006AA648 /* animationdismissProxy.h */,
+				E8B4919B1DF15143006AA648 /* animationdismissProxy.m */,
+				E8B491901DF15113006AA648 /* Main.storyboard */,
 				E8B491691DF14FDA006AA648 /* Assets.xcassets */,
 				E8B4916B1DF14FDA006AA648 /* LaunchScreen.storyboard */,
 				E8B4916E1DF14FDA006AA648 /* Info.plist */,
@@ -249,9 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B491911DF15113006AA648 /* Main.storyboard in Resources */,
 				E8B4916D1DF14FDA006AA648 /* LaunchScreen.storyboard in Resources */,
 				E8B4916A1DF14FDA006AA648 /* Assets.xcassets in Resources */,
-				E8B491681DF14FDA006AA648 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B491651DF14FDA006AA648 /* ViewController.m in Sources */,
-				E8B491621DF14FDA006AA648 /* AppDelegate.m in Sources */,
+				E8B4919D1DF15143006AA648 /* ViewController.m in Sources */,
+				E8B4919E1DF15143006AA648 /* ViewController2.m in Sources */,
+				E8B491A01DF15143006AA648 /* animationdismissProxy.m in Sources */,
+				E8B4919C1DF15143006AA648 /* AppDelegate.m in Sources */,
 				E8B4915F1DF14FDA006AA648 /* main.m in Sources */,
+				E8B4919F1DF15143006AA648 /* animationPresentedProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E8B491661DF14FDA006AA648 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E8B491671DF14FDA006AA648 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E8B4916B1DF14FDA006AA648 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

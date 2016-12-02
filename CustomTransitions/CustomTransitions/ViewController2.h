@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController2.h
 //  酷我音乐盒自定义转场
 //
 //  Created by GWL on 2016/11/9.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface ViewController2 : UIViewController
 
 @end
-
